@@ -18,4 +18,7 @@ public class Figuras {
 	    return Math.PI * Math.pow(radio, 2);
 	}
 	
+	public static double areaTrapecio(double base1, double base2, double altura) {
+	    return ((base1 + base2) * altura) / 2;
+	}
 }
