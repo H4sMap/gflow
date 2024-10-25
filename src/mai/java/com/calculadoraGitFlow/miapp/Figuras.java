@@ -14,4 +14,8 @@ public class Figuras {
 	    return (base * altura) / 2;
 	}
 	
+	public static double areaCirculo(double radio) {
+	    return Math.PI * Math.pow(radio, 2);
+	}
+	
 }
